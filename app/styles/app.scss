@@ -1,0 +1,52 @@
+.container {
+  width: 100%;
+  .jumbotron {
+    background-color: skyblue;
+    color: white;
+  }
+}
+h2 {
+  text-align: center;
+}
+ul {
+  padding-left: 0;
+  li {
+    list-style: none;
+    padding: 25px;
+    box-shadow: 3px 3px 3px gray;
+    background-color: skyblue;
+    border-radius: 15px;
+    margin: 0 auto 10px auto;
+    width: 60%;
+    text-align: center;
+    align-self: center;
+    a {
+      color: white;
+    }
+  }
+}
+
+#main {
+  margin-top: 10px;
+  padding: 15px;
+  font-size: 2em;
+  border: 5px solid gray;
+  width: 30%;
+  text-align: center;
+}
+button {
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: skyblue;
+  height: 50px;
+  font-size: 1.5em;
+  text-align: center;
+  a {
+    color: white;
+    padding-left: 15px;
+    padding-top: 15px;
+
+  }
+}
