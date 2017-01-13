@@ -1,1 +1,15 @@
-{{outlet}}
+<h1> Welcome to Alex's Message Board </h1>
+
+<p>Please ask your question and others users will respond with answers</p>
+
+<h2> Question</h2>
+
+<ul>
+  {{#each model.questions as |question|}}
+    {{question-tile question=question}}
+  {{/each}}
+</ul>
+
+{{new-question saveQuestion2="saveQuestion3"}}
+
+<hr>
