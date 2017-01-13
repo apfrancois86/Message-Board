@@ -1,13 +1,13 @@
 { "questions": [{
-    "question": "Why is the sky blue?",
+    "content": "Why is the sky blue?",
     "author": "Emma Stone",
     "comments": "I just dont get it"
   }, {
-    "question": "What is the best suv in 2016?",
+    "content": "What is the best suv in 2016?",
     "author": "Dale Goff",
     "comments": "I like the GMC yukon the best right now"
   }, {
-    "question": "How do you tie your shoes?",
+    "content": "How do you tie your shoes?",
     "author": "Alan Davis",
     "comments": "This is just too complicated"
   }],
