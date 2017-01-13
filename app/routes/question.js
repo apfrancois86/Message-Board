@@ -22,7 +22,7 @@ export default Ember.Route.extend({
       newAnswer.save().then(function() {
         return question.save();
       });
-      this.transitionTo('question', question);
+      this.transitionTo('index');
     },
     destroyQuestion(question) {
       var answer_deletions = question.get('answers').map(function(answer) {
